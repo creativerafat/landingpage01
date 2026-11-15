@@ -356,19 +356,6 @@ html, body {
   border: 1px solid #E2E8F0;
 }
 
-.dk-nav-editorial-header-82746 {
-  position: sticky !important;
-  top: 0 !important;
-  left: 0px;
-  width: 1440px;
-  height: 96px;
-  z-index: 1000 !important;
-  background-color: #FFFFFF;
-  border: 1px solid #E2E8F0;
-  backdrop-filter: blur(16px) saturate(180%);
-  -webkit-backdrop-filter: blur(16px) saturate(180%);
-}
-
 .dk-metrics-card-1-82747 {
   position: absolute;
   left: 80px;
@@ -515,20 +502,6 @@ html, body {
   border: 1px solid transparent;
 }
 
-.dk-nav-right-cta-27418 {
-  position: sticky !important;
-  top: 0 !important;
-  left: 1160px;
-  width: 200px;
-  height: 48px;
-  z-index: 1000 !important;
-  background-color: #09090B;
-  border-radius: 999px;
-  border: 1px solid #1E293B;
-  backdrop-filter: blur(16px) saturate(180%);
-  -webkit-backdrop-filter: blur(16px) saturate(180%);
-}
-
 .dk-hero-media-mode-badge-27419 {
   position: absolute;
   left: 128px;
@@ -626,74 +599,6 @@ html, body {
   background-color: #4F46E5;
   border-radius: 14px;
   border: 1px solid #1E293B;
-}
-
-.dk-nav-left-link-1-27428 {
-  position: absolute;
-  left: 80px;
-  top: 37px;
-  width: 110px;
-  height: 28px;
-  color: #0F172A;
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 1.35;
-  text-align: left;
-  white-space: pre-wrap;
-  word-break: break-word;
-  margin: 0;
-}
-
-.dk-nav-left-link-2-27429 {
-  position: absolute;
-  left: 200px;
-  top: 37px;
-  width: 110px;
-  height: 28px;
-  color: #0F172A;
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 1.35;
-  text-align: left;
-  white-space: pre-wrap;
-  word-break: break-word;
-  margin: 0;
-}
-
-.dk-nav-center-brand-mark-27430 {
-  position: absolute;
-  left: 530px;
-  top: 30px;
-  width: 380px;
-  height: 39px;
-  color: #0F172A;
-  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 24px;
-  font-weight: 800;
-  line-height: 1.35;
-  text-align: center;
-  white-space: pre-wrap;
-  word-break: break-word;
-  margin: 0;
-}
-
-.dk-nav-right-cta-label-27431 {
-  position: absolute;
-  left: 1172px;
-  top: 38px;
-  width: 176px;
-  height: 25px;
-  color: #FFFFFF;
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 1.35;
-  text-align: center;
-  white-space: pre-wrap;
-  word-break: break-word;
-  margin: 0;
 }
 
 .dk-hero-media-mode-badge-label-27432 {
@@ -1427,6 +1332,113 @@ html, body {
   margin: 0;
 }
 
+.dk-group-22-67620 {
+  position: sticky !important;
+  top: 0 !important;
+  left: 0px;
+  width: 1440px;
+  height: 96px;
+  z-index: 1000 !important;
+  background-color: rgba(255, 255, 255, 0.86);
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+}
+
+.dk-nav-right-cta-27418 {
+  position: sticky !important;
+  top: 0 !important;
+  left: 1160px;
+  width: 200px;
+  height: 48px;
+  z-index: 1000 !important;
+  background-color: #09090B;
+  border-radius: 999px;
+  border: 1px solid #1E293B;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+}
+
+.dk-nav-right-cta-label-27431 {
+  position: absolute;
+  left: 1172px;
+  top: 38px;
+  width: 176px;
+  height: 25px;
+  color: #FFFFFF;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.35;
+  text-align: center;
+  white-space: pre-wrap;
+  word-break: break-word;
+  margin: 0;
+}
+
+.dk-nav-editorial-header-82746 {
+  position: sticky !important;
+  top: 0 !important;
+  left: 0px;
+  width: 1440px;
+  height: 96px;
+  z-index: 1000 !important;
+  background-color: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+}
+
+.dk-nav-center-brand-mark-27430 {
+  position: absolute;
+  left: 530px;
+  top: 30px;
+  width: 380px;
+  height: 39px;
+  color: #0F172A;
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 1.35;
+  text-align: center;
+  white-space: pre-wrap;
+  word-break: break-word;
+  margin: 0;
+}
+
+.dk-nav-left-link-1-27428 {
+  position: absolute;
+  left: 80px;
+  top: 37px;
+  width: 110px;
+  height: 28px;
+  color: #0F172A;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.35;
+  text-align: left;
+  white-space: pre-wrap;
+  word-break: break-word;
+  margin: 0;
+}
+
+.dk-nav-left-link-2-27429 {
+  position: absolute;
+  left: 200px;
+  top: 37px;
+  width: 110px;
+  height: 28px;
+  color: #0F172A;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.35;
+  text-align: left;
+  white-space: pre-wrap;
+  word-break: break-word;
+  margin: 0;
+}
+
 `;
 
 export function CoffeeHome(): React.ReactElement {
@@ -1571,12 +1583,6 @@ export function CoffeeHome(): React.ReactElement {
             style={{ position: 'absolute', left: 0, top: 2552, width: 1440, height: 250, backgroundColor: '#F4F4F5', borderRadius: '0px', border: '1px solid #E2E8F0' }}
           >
 </footer>
-          <header
-            className="dk-sticky-navbar dk-nav-editorial-header-82746"
-            data-dk-navbar="true"
-            style={{ position: 'sticky', top: 0, left: 0, width: 1440, height: 96, zIndex: 1000, backgroundColor: '#FFFFFF', borderRadius: '0px', border: '1px solid #E2E8F0' }}
-          >
-</header>
           <div
             className="dk-metrics-card-1-82747"
             style={{ position: 'absolute', left: 80, top: 836, width: 410, height: 120, backgroundColor: '#09090B', borderRadius: '22px', border: '1px solid #1E293B' }}
@@ -1647,15 +1653,6 @@ export function CoffeeHome(): React.ReactElement {
             loading="lazy"
             style={{ position: 'absolute', left: 116, top: 1752, width: 560, height: 428, borderRadius: '22px', objectFit: 'cover' }}
           />
-          <button
-            type="button"
-            className="dk-interactive-btn dk-nav-right-cta-27418"
-            data-dk-action="Nav / Right CTA"
-            data-dk-target="#nav-right-cta"
-            style={{ position: 'sticky', top: 0, left: 1160, width: 200, height: 48, zIndex: 1000, display: 'inline-flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#09090B', color: '#FFFFFF', borderRadius: '999px', border: '1px solid #1E293B', fontWeight: '600', fontSize: 14, cursor: 'pointer' }}
-          >
-            <span>Nav / Right CTA</span>
-          </button>
           <div
             className="dk-hero-media-mode-badge-27419"
             style={{ position: 'absolute', left: 128, top: 256, width: 310, height: 38, backgroundColor: '#4F46E5', borderRadius: '999px', border: '1px solid #1E293B' }}
@@ -1729,32 +1726,6 @@ export function CoffeeHome(): React.ReactElement {
           >
             <span>CTA Banner / Button</span>
           </button>
-          <a
-            href="#roasts"
-            className="dk-interactive-link dk-nav-left-link-1-27428"
-            style={{ position: 'absolute', left: 80, top: 37, width: 110, height: 28, color: '#0F172A', fontSize: 16, fontWeight: '600', fontFamily: "'Inter', sans-serif", textAlign: 'left', textDecoration: 'none', whiteSpace: 'pre-wrap' }}
-          >
-            Roasts
-          </a>
-          <a
-            href="#spaces"
-            className="dk-interactive-link dk-nav-left-link-2-27429"
-            style={{ position: 'absolute', left: 200, top: 37, width: 110, height: 28, color: '#0F172A', fontSize: 16, fontWeight: '600', fontFamily: "'Inter', sans-serif", textAlign: 'left', textDecoration: 'none', whiteSpace: 'pre-wrap' }}
-          >
-            Spaces
-          </a>
-          <h2
-            className="dk-nav-center-brand-mark-27430"
-            style={{ position: 'absolute', left: 530, top: 30, width: 380, height: 39, color: '#0F172A', fontSize: 24, fontWeight: '800', fontFamily: "'Plus Jakarta Sans', sans-serif", textAlign: 'center', margin: 0, whiteSpace: 'pre-wrap' }}
-          >
-            VERVE &amp; BLOOM
-          </h2>
-          <p
-            className="dk-nav-right-cta-label-27431"
-            style={{ position: 'absolute', left: 1172, top: 38, width: 176, height: 25, color: '#FFFFFF', fontSize: 14, fontWeight: '700', fontFamily: "'Inter', sans-serif", textAlign: 'center', margin: 0, whiteSpace: 'pre-wrap' }}
-          >
-            Shop The Roast
-          </p>
           <p
             className="dk-hero-media-mode-badge-label-27432"
             style={{ position: 'absolute', left: 140, top: 266, width: 286, height: 22, color: '#FFFFFF', fontSize: 12, fontWeight: '800', fontFamily: "'Inter', sans-serif", textAlign: 'center', margin: 0, whiteSpace: 'pre-wrap' }}
@@ -2013,6 +1984,54 @@ export function CoffeeHome(): React.ReactElement {
           >
             © 2026 Verve &amp; Bloom. Crafted with DesignKoro AI.
           </p>
+          <header
+            className="dk-sticky-navbar dk-group-22-67620"
+            data-dk-navbar="true"
+            style={{ position: 'sticky', top: 0, left: 0, width: 1440, height: 96, zIndex: 1000, backgroundColor: 'rgba(255,255,255,0.88)', borderRadius: '0px' }}
+          >
+            <button
+              type="button"
+              className="dk-interactive-btn dk-nav-right-cta-27418"
+              data-dk-action="Nav / Right CTA"
+              data-dk-target="#nav-right-cta"
+              style={{ position: 'sticky', top: 0, left: 1160, width: 200, height: 48, zIndex: 1000, display: 'inline-flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#09090B', color: '#FFFFFF', borderRadius: '999px', border: '1px solid #1E293B', fontWeight: '600', fontSize: 14, cursor: 'pointer' }}
+            >
+              <span>Nav / Right CTA</span>
+            </button>
+            <a
+              href="#shop-the-roast"
+              className="dk-interactive-link dk-nav-right-cta-label-27431"
+              style={{ position: 'absolute', left: 1172, top: 38, width: 176, height: 25, color: '#FFFFFF', fontSize: 14, fontWeight: '700', fontFamily: "'Inter', sans-serif", textAlign: 'center', textDecoration: 'none', whiteSpace: 'pre-wrap' }}
+            >
+              Shop The Roast
+            </a>
+            <header
+              className="dk-sticky-navbar dk-nav-editorial-header-82746"
+              data-dk-navbar="true"
+              style={{ position: 'sticky', top: 0, left: 0, width: 1440, height: 96, zIndex: 1000, backgroundColor: '#FFFFFF', borderRadius: '0px', border: '1px solid #E2E8F0' }}
+            >
+</header>
+            <h2
+              className="dk-nav-center-brand-mark-27430"
+              style={{ position: 'absolute', left: 530, top: 30, width: 380, height: 39, color: '#0F172A', fontSize: 24, fontWeight: '800', fontFamily: "'Plus Jakarta Sans', sans-serif", textAlign: 'center', margin: 0, whiteSpace: 'pre-wrap' }}
+            >
+              VERVE &amp; BLOOM
+            </h2>
+            <a
+              href="#roasts"
+              className="dk-interactive-link dk-nav-left-link-1-27428"
+              style={{ position: 'absolute', left: 80, top: 37, width: 110, height: 28, color: '#0F172A', fontSize: 16, fontWeight: '600', fontFamily: "'Inter', sans-serif", textAlign: 'left', textDecoration: 'none', whiteSpace: 'pre-wrap' }}
+            >
+              Roasts
+            </a>
+            <a
+              href="#spaces"
+              className="dk-interactive-link dk-nav-left-link-2-27429"
+              style={{ position: 'absolute', left: 200, top: 37, width: 110, height: 28, color: '#0F172A', fontSize: 16, fontWeight: '600', fontFamily: "'Inter', sans-serif", textAlign: 'left', textDecoration: 'none', whiteSpace: 'pre-wrap' }}
+            >
+              Spaces
+            </a>
+          </header>
         </section>
       </main>
       <div className={`dk-toast-notification${toastMessage ? ' dk-toast-visible' : ''}`}>
