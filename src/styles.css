@@ -349,19 +349,6 @@ html, body {
   border: 1px solid #E2E8F0;
 }
 
-.dk-nav-editorial-header-82746 {
-  position: sticky !important;
-  top: 0 !important;
-  left: 0px;
-  width: 1440px;
-  height: 96px;
-  z-index: 1000 !important;
-  background-color: #FFFFFF;
-  border: 1px solid #E2E8F0;
-  backdrop-filter: blur(16px) saturate(180%);
-  -webkit-backdrop-filter: blur(16px) saturate(180%);
-}
-
 .dk-metrics-card-1-82747 {
   position: absolute;
   left: 80px;
@@ -508,20 +495,6 @@ html, body {
   border: 1px solid transparent;
 }
 
-.dk-nav-right-cta-27418 {
-  position: sticky !important;
-  top: 0 !important;
-  left: 1160px;
-  width: 200px;
-  height: 48px;
-  z-index: 1000 !important;
-  background-color: #09090B;
-  border-radius: 999px;
-  border: 1px solid #1E293B;
-  backdrop-filter: blur(16px) saturate(180%);
-  -webkit-backdrop-filter: blur(16px) saturate(180%);
-}
-
 .dk-hero-media-mode-badge-27419 {
   position: absolute;
   left: 128px;
@@ -619,74 +592,6 @@ html, body {
   background-color: #4F46E5;
   border-radius: 14px;
   border: 1px solid #1E293B;
-}
-
-.dk-nav-left-link-1-27428 {
-  position: absolute;
-  left: 80px;
-  top: 37px;
-  width: 110px;
-  height: 28px;
-  color: #0F172A;
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 1.35;
-  text-align: left;
-  white-space: pre-wrap;
-  word-break: break-word;
-  margin: 0;
-}
-
-.dk-nav-left-link-2-27429 {
-  position: absolute;
-  left: 200px;
-  top: 37px;
-  width: 110px;
-  height: 28px;
-  color: #0F172A;
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 1.35;
-  text-align: left;
-  white-space: pre-wrap;
-  word-break: break-word;
-  margin: 0;
-}
-
-.dk-nav-center-brand-mark-27430 {
-  position: absolute;
-  left: 530px;
-  top: 30px;
-  width: 380px;
-  height: 39px;
-  color: #0F172A;
-  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 24px;
-  font-weight: 800;
-  line-height: 1.35;
-  text-align: center;
-  white-space: pre-wrap;
-  word-break: break-word;
-  margin: 0;
-}
-
-.dk-nav-right-cta-label-27431 {
-  position: absolute;
-  left: 1172px;
-  top: 38px;
-  width: 176px;
-  height: 25px;
-  color: #FFFFFF;
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 1.35;
-  text-align: center;
-  white-space: pre-wrap;
-  word-break: break-word;
-  margin: 0;
 }
 
 .dk-hero-media-mode-badge-label-27432 {
@@ -1415,6 +1320,113 @@ html, body {
   font-weight: 500;
   line-height: 1.35;
   text-align: center;
+  white-space: pre-wrap;
+  word-break: break-word;
+  margin: 0;
+}
+
+.dk-group-22-67620 {
+  position: sticky !important;
+  top: 0 !important;
+  left: 0px;
+  width: 1440px;
+  height: 96px;
+  z-index: 1000 !important;
+  background-color: rgba(255, 255, 255, 0.86);
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+}
+
+.dk-nav-right-cta-27418 {
+  position: sticky !important;
+  top: 0 !important;
+  left: 1160px;
+  width: 200px;
+  height: 48px;
+  z-index: 1000 !important;
+  background-color: #09090B;
+  border-radius: 999px;
+  border: 1px solid #1E293B;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+}
+
+.dk-nav-right-cta-label-27431 {
+  position: absolute;
+  left: 1172px;
+  top: 38px;
+  width: 176px;
+  height: 25px;
+  color: #FFFFFF;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.35;
+  text-align: center;
+  white-space: pre-wrap;
+  word-break: break-word;
+  margin: 0;
+}
+
+.dk-nav-editorial-header-82746 {
+  position: sticky !important;
+  top: 0 !important;
+  left: 0px;
+  width: 1440px;
+  height: 96px;
+  z-index: 1000 !important;
+  background-color: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+}
+
+.dk-nav-center-brand-mark-27430 {
+  position: absolute;
+  left: 530px;
+  top: 30px;
+  width: 380px;
+  height: 39px;
+  color: #0F172A;
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 1.35;
+  text-align: center;
+  white-space: pre-wrap;
+  word-break: break-word;
+  margin: 0;
+}
+
+.dk-nav-left-link-1-27428 {
+  position: absolute;
+  left: 80px;
+  top: 37px;
+  width: 110px;
+  height: 28px;
+  color: #0F172A;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.35;
+  text-align: left;
+  white-space: pre-wrap;
+  word-break: break-word;
+  margin: 0;
+}
+
+.dk-nav-left-link-2-27429 {
+  position: absolute;
+  left: 200px;
+  top: 37px;
+  width: 110px;
+  height: 28px;
+  color: #0F172A;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.35;
+  text-align: left;
   white-space: pre-wrap;
   word-break: break-word;
   margin: 0;
