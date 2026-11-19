@@ -6,13 +6,13 @@
  */
 import React from 'react';
 import './styles.css';
-import { MainBurgerKingFlameGrilledDeliveryHomepage } from './components/MainBurgerKingFlameGrilledDeliveryHomepage';
+import { Home } from './components/Home';
 
 export function App() {
   return (
     <div className="dk-app-root">
-      {/* Section / Page Component: MainBurgerKingFlameGrilledDeliveryHomepage */}
-      <MainBurgerKingFlameGrilledDeliveryHomepage />
+      {/* Section / Page Component: Home */}
+      <Home />
     </div>
   );
 }
