@@ -1,4 +1,4 @@
-# Frame: main — Burger King — Flame-Grilled Delivery Homepage — Exported from DesignKoro Studio
+# Frame: home — Exported from DesignKoro Studio
 
 This repository contains both **standalone runnable HTML + CSS** and a **complete runnable React + CSS (Vite + TypeScript)** application generated from DesignKoro Studio.
 
