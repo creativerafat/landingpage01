@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Space%20Grotesk:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage%20Grotesque:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM%20Sans:wght@300;400;500;600;700;800;900&display=swap');
 
 :root {
   --dk-ease-out: cubic-bezier(0.22, 1, 0.36, 1);
@@ -281,10 +282,10 @@ html, body {
 }
 
 /* ========================================================================== */
-/* ROOT ARTBOARD: main — Burger King — Flame-Grilled Delivery Homepage (1440x2698px) */
+/* ROOT ARTBOARD: home (1440x1870px) */
 /* ========================================================================== */
 
-.dk-main-burger-king-flame-grilled-delivery-homepage-10101 {
+.dk-home-89387 {
   --dk-design-width: 1440;
   position: relative;
   width: 100%;
@@ -296,7 +297,7 @@ html, body {
   align-items: stretch;
   gap: 0px;
   overflow-x: clip;
-  background-color: #FFFDF0;
+  background-color: #FBF9F8;
 }
 
 
@@ -307,7 +308,7 @@ html, body {
   top: 0 !important;
   left: 0;
   width: 100%;
-  min-height: 96px;
+  min-height: 72px;
   z-index: 1000 !important;
   display: flex;
   flex-direction: row;
@@ -316,40 +317,57 @@ html, body {
   justify-content: space-between;
   gap: 16px;
   padding: 0px clamp(16px, 4vw, 24px);
-  background-color: #FFFFFF;
+  background-color: #FFFFFF00;
   backdrop-filter: blur(16px) saturate(180%);
   -webkit-backdrop-filter: blur(16px) saturate(180%);
+}
+
+.dk-div-section-bg-93877 {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+  background-color: #FFFFFF;
+  border: 1px solid #CBD5E1;
 }
 
 .dk-nav-container-ainer {
   position: relative;
   z-index: 1;
   width: 100%;
-  max-width: 100%;
+  max-width: 1144px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-inline: clamp(16px, 4vw, 40px);
   display: flex;
   flex-direction: column;
   gap: 24px;
   justify-content: flex-start;
   align-items: flex-start;
   padding: 16px clamp(16px, 4vw, 16px) 16px clamp(16px, 4vw, 16px);
+  background-color: #FFFFFF;
 }
 
 .dk-div-row-avrow {
   position: relative;
   z-index: 1;
   width: 100%;
-  max-width: 100%;
+  max-width: 1144px;
+  height: auto;
+  background-color: #FFFFFF;
 }
 
-.dk-a-brand-burger-king-10134 {
+.dk-a-brand-veloxis-38727 {
   position: relative;
   z-index: 1;
   width: auto;
   max-width: 320px;
   height: auto;
-  color: #0F172A;
-  font-family: 'Space Grotesk', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 22px;
+  color: #B91C1C;
+  font-family: 'Bricolage Grotesque', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 20px;
   font-weight: 800;
   line-height: 1.45;
   text-align: left;
@@ -358,16 +376,84 @@ html, body {
   margin: 0;
 }
 
-.dk-button-order-now-10121 {
+.dk-a-nav-link-portfolio-38728 {
+  position: relative;
+  z-index: 1;
+  width: auto;
+  max-width: 320px;
+  height: auto;
+  color: #18181B;
+  font-family: 'DM Sans', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.45;
+  text-align: left;
+  white-space: pre-wrap;
+  word-break: break-word;
+  margin: 0;
+}
+
+.dk-a-nav-link-solutions-38729 {
+  position: relative;
+  z-index: 1;
+  width: auto;
+  max-width: 320px;
+  height: auto;
+  color: #18181B;
+  font-family: 'DM Sans', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.45;
+  text-align: left;
+  white-space: pre-wrap;
+  word-break: break-word;
+  margin: 0;
+}
+
+.dk-a-nav-link-vision-38730 {
+  position: relative;
+  z-index: 1;
+  width: auto;
+  max-width: 320px;
+  height: auto;
+  color: #18181B;
+  font-family: 'DM Sans', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.45;
+  text-align: left;
+  white-space: pre-wrap;
+  word-break: break-word;
+  margin: 0;
+}
+
+.dk-a-nav-link-connect-38731 {
+  position: relative;
+  z-index: 1;
+  width: auto;
+  max-width: 320px;
+  height: auto;
+  color: #18181B;
+  font-family: 'DM Sans', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.45;
+  text-align: left;
+  white-space: pre-wrap;
+  word-break: break-word;
+  margin: 0;
+}
+
+.dk-button-launch-configurator-38717 {
   position: relative;
   z-index: 1;
   width: fit-content;
   min-width: 160px;
   max-width: 100%;
   min-height: 48px;
-  background-color: #EAB308;
+  background-color: #B91C1C;
   border-radius: 999px;
-  border: 1.5px solid #E2E8F0;
+  border: 1.5px solid #1E293B;
 }
 
 
@@ -383,7 +469,6 @@ html, body {
   gap: 16px;
   justify-content: flex-start;
   align-items: flex-start;
-  background-color: #FFFFFF;
 }
 
 .dk-div-container-ainer {
@@ -399,14 +484,89 @@ html, body {
   padding: 24px clamp(16px, 4vw, 24px) 24px clamp(16px, 4vw, 24px);
 }
 
-.dk-div-row-r1row {
+.dk-div-grid-1grid {
   position: relative;
   z-index: 1;
   width: 100%;
   max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
-.dk-div-section-bg-01016 {
+.dk-img-img-hero-showcase-i-38711 {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 680px;
+  aspect-ratio: 680 / 500;
+  height: auto;
+  background-image: url("https://images.pexels.com/photos/17898713/pexels-photo-17898713.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 28px;
+  border: 1px solid transparent;
+}
+
+.dk-button-2026-digital-design-studiooooo-38718 {
+  position: relative;
+  z-index: 1;
+  width: fit-content;
+  min-width: 160px;
+  max-width: 100%;
+  min-height: 40px;
+  background-color: #EA4D57;
+  border-radius: 999px 999px 999px 999px;
+  border: 1.5px solid #B91C1C;
+}
+
+.dk-h1-digital-showrooms-built-38732 {
+  position: relative;
+  z-index: 1;
+  width: auto;
+  max-width: 550px;
+  height: auto;
+  color: #18181B;
+  font-family: 'Bricolage Grotesque', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: clamp(32px, 3.89vw, 56px);
+  font-weight: 800;
+  line-height: 1.45;
+  text-align: left;
+  white-space: pre-wrap;
+  word-break: break-word;
+  margin: 0;
+}
+
+.dk-h3-transforming-automotive-38733 {
+  position: relative;
+  z-index: 1;
+  width: auto;
+  max-width: 550px;
+  height: auto;
+  color: #52525B;
+  font-family: 'DM Sans', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.45;
+  text-align: left;
+  white-space: pre-wrap;
+  word-break: break-word;
+  margin: 0;
+}
+
+.dk-article-card-card6 {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  background-color: #FFFFFF;
+}
+
+.dk-div-card-surface-38716 {
   position: absolute;
   inset: 0;
   width: 100%;
@@ -414,19 +574,20 @@ html, body {
   z-index: 0;
   pointer-events: none;
   background-color: #FFFFFF;
-  border: 1px solid #E2E8F0;
+  border-radius: 20px;
+  border: 1px solid #CBD5E1;
 }
 
-.dk-a-menu-10135 {
+.dk-span-badge-rapid-delivery-38734 {
   position: relative;
   z-index: 1;
   width: auto;
   max-width: 320px;
   height: auto;
-  color: #18181B;
-  font-family: 'Inter', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 15px;
-  font-weight: 600;
+  color: #52525B;
+  font-family: 'DM Sans', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 11px;
+  font-weight: 800;
   line-height: 1.45;
   text-align: left;
   white-space: pre-wrap;
@@ -434,16 +595,16 @@ html, body {
   margin: 0;
 }
 
-.dk-a-offers-10136 {
+.dk-h2-0-8s-total-38735 {
   position: relative;
   z-index: 1;
   width: auto;
   max-width: 320px;
   height: auto;
-  color: #18181B;
-  font-family: 'Inter', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 15px;
-  font-weight: 600;
+  color: #B91C1C;
+  font-family: 'Bricolage Grotesque', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 24px;
+  font-weight: 800;
   line-height: 1.45;
   text-align: left;
   white-space: pre-wrap;
@@ -451,38 +612,28 @@ html, body {
   margin: 0;
 }
 
-.dk-a-delivery-10137 {
+.dk-button-launch-configurator-38719 {
   position: relative;
   z-index: 1;
-  width: auto;
-  max-width: 320px;
-  height: auto;
-  color: #18181B;
-  font-family: 'Inter', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  line-height: 1.45;
-  text-align: left;
-  white-space: pre-wrap;
-  word-break: break-word;
-  margin: 0;
+  width: fit-content;
+  min-width: 160px;
+  max-width: 100%;
+  min-height: 56px;
+  background-color: #B91C1C;
+  border-radius: 14px;
+  border: 1.5px solid #1E293B;
 }
 
-.dk-a-our-story-10138 {
+.dk-button-view-2026-reel-38720 {
   position: relative;
   z-index: 1;
-  width: auto;
-  max-width: 320px;
-  height: auto;
-  color: #18181B;
-  font-family: 'Inter', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  line-height: 1.45;
-  text-align: left;
-  white-space: pre-wrap;
-  word-break: break-word;
-  margin: 0;
+  width: fit-content;
+  min-width: 160px;
+  max-width: 100%;
+  min-height: 56px;
+  background-color: #FAF8F5;
+  border-radius: 14px;
+  border: 1.5px solid #E2E8F0;
 }
 
 .dk-div-grid-2grid {
@@ -495,251 +646,55 @@ html, body {
   gap: 24px;
   justify-content: flex-start;
   align-items: flex-start;
+  background-color: #FFFFFF;
 }
 
 .dk-article-card-card1 {
   position: relative;
   z-index: 1;
   width: 100%;
-  max-width: 620px;
+  max-width: 410px;
   height: auto;
+  background-color: #FFFFFF;
 }
 
-.dk-div-section-bg-01011 {
+.dk-div-card-surface-93878 {
   position: absolute;
   inset: 0;
   width: 100%;
   height: 100%;
   z-index: 0;
   pointer-events: none;
-  background-color: #F8FAFC;
-  border-radius: 32px;
+  background-color: #FFFFFF;
+  border-radius: 22px;
   border: 1px solid #E2E8F0;
 }
 
-.dk-button-flame-grilled-since-1-10122 {
-  position: relative;
-  z-index: 1;
-  width: fit-content;
-  min-width: 160px;
-  max-width: 100%;
-  min-height: 42px;
-  background-color: #FEF9C3;
-  border-radius: 999px;
-  border: 1.5px solid #E2E8F0;
-}
-
-.dk-h1-have-it-your-way-delive-10139 {
+.dk-h1-1-4s-38736 {
   position: relative;
   z-index: 1;
   width: auto;
-  max-width: 532px;
+  max-width: 362px;
   height: auto;
-  color: #0F172A;
-  font-family: 'Space Grotesk', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: clamp(26px, 3.06vw, 44px);
-  font-weight: 800;
-  line-height: 1.18;
-  text-align: left;
-  white-space: pre-wrap;
-  word-break: break-word;
-  margin: 0;
-}
-
-.dk-h3-the-whopper-you-crave-f-10140 {
-  position: relative;
-  z-index: 1;
-  width: auto;
-  max-width: 532px;
-  height: auto;
-  color: #475569;
-  font-family: 'Inter', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 17px;
-  font-weight: 500;
-  line-height: 1.45;
-  text-align: left;
-  white-space: pre-wrap;
-  word-break: break-word;
-  margin: 0;
-}
-
-.dk-button-order-now-10123 {
-  position: relative;
-  z-index: 1;
-  width: fit-content;
-  min-width: 160px;
-  max-width: 100%;
-  min-height: 56px;
-  background-color: #EAB308;
-  border-radius: 14px;
-  border: 1.5px solid #E2E8F0;
-}
-
-.dk-button-view-full-menu-10124 {
-  position: relative;
-  z-index: 1;
-  width: fit-content;
-  min-width: 160px;
-  max-width: 100%;
-  min-height: 56px;
-  background-color: #FFFFFF;
-  border-radius: 14px;
-  border: 1.5px solid #CBD5E1;
-}
-
-.dk-img-hero-bento-main-phot-10115 {
-  position: relative;
-  z-index: 1;
-  width: 100%;
-  max-width: 632px;
-  aspect-ratio: 632 / 324;
-  height: auto;
-  background-image: url("https://images.pexels.com/photos/33967669/pexels-photo-33967669.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 28px;
-  border: 1px solid transparent;
-}
-
-.dk-img-hero-pexels-video-re-10116 {
-  position: relative;
-  z-index: 1;
-  width: 100%;
-  max-width: 304px;
-  aspect-ratio: 304 / 192;
-  height: auto;
-  background-image: url("https://images.pexels.com/videos/8799136/pexels-photo-8799136.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 24px;
-  border: 1px solid transparent;
-}
-
-.dk-article-card-card5 {
-  position: relative;
-  z-index: 1;
-  width: 100%;
-  max-width: 304px;
-  height: auto;
-}
-
-.dk-div-card-surface-01017 {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-  pointer-events: none;
-  background-color: #FEF9C3;
-  border-radius: 24px;
-  border: 1px solid #EAB308;
-}
-
-.dk-span-badge-whopper-combo-10141 {
-  position: relative;
-  z-index: 1;
-  width: auto;
-  max-width: 320px;
-  height: auto;
-  color: #0F172A;
-  font-family: 'Inter', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 12px;
-  font-weight: 800;
-  line-height: 1.45;
-  text-align: left;
-  white-space: pre-wrap;
-  word-break: break-word;
-  margin: 0;
-}
-
-.dk-h2-burger-fries-drink-10142 {
-  position: relative;
-  z-index: 1;
-  width: auto;
-  max-width: 320px;
-  height: auto;
-  color: #18181B;
-  font-family: 'Space Grotesk', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 26px;
-  font-weight: 800;
-  line-height: 1.45;
-  text-align: left;
-  white-space: pre-wrap;
-  word-break: break-word;
-  margin: 0;
-}
-
-.dk-button-4k-video-reel-10125 {
-  position: relative;
-  z-index: 1;
-  width: fit-content;
-  min-width: 154px;
-  max-width: 100%;
-  min-height: 42px;
-  background-color: #090D16;
-  border-radius: 999px;
-  border: 1.5px solid #1E293B;
-}
-
-.dk-div-grid-3grid {
-  position: relative;
-  z-index: 1;
-  width: 100%;
-  max-width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
-
-.dk-article-card-card1 {
-  position: relative;
-  z-index: 1;
-  width: 100%;
-  max-width: 302px;
-  height: auto;
-}
-
-.dk-div-card-surface-10111 {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-  pointer-events: none;
-  background-color: #FEF9C3;
-  border-radius: 22px;
-  border: 1px solid #EAB308;
-}
-
-.dk-h1-18-700-10143 {
-  position: relative;
-  z-index: 1;
-  width: auto;
-  max-width: 320px;
-  height: auto;
-  color: #0F172A;
-  font-family: 'Space Grotesk', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #B91C1C;
+  font-family: 'Bricolage Grotesque', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: clamp(22px, 2.22vw, 32px);
   font-weight: 800;
-  line-height: 1.18;
+  line-height: 1.45;
   text-align: left;
   white-space: pre-wrap;
   word-break: break-word;
   margin: 0;
 }
 
-.dk-p-restaurants-worldwide-10144 {
+.dk-p-average-lcp-speed-38737 {
   position: relative;
   z-index: 1;
   width: auto;
-  max-width: 320px;
+  max-width: 362px;
   height: auto;
   color: #475569;
-  font-family: 'Inter', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'DM Sans', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 14px;
   font-weight: 600;
   line-height: 1.45;
@@ -753,11 +708,12 @@ html, body {
   position: relative;
   z-index: 1;
   width: 100%;
-  max-width: 302px;
+  max-width: 410px;
   height: auto;
+  background-color: #FFFFFF;
 }
 
-.dk-div-card-surface-10112 {
+.dk-div-card-surface-93879 {
   position: absolute;
   inset: 0;
   width: 100%;
@@ -769,31 +725,31 @@ html, body {
   border: 1px solid #E2E8F0;
 }
 
-.dk-h1-100-10145 {
+.dk-h1-32-38738 {
   position: relative;
   z-index: 1;
   width: auto;
-  max-width: 320px;
+  max-width: 362px;
   height: auto;
-  color: #0F172A;
-  font-family: 'Space Grotesk', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #B91C1C;
+  font-family: 'Bricolage Grotesque', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: clamp(22px, 2.22vw, 32px);
   font-weight: 800;
-  line-height: 1.18;
+  line-height: 1.45;
   text-align: left;
   white-space: pre-wrap;
   word-break: break-word;
   margin: 0;
 }
 
-.dk-p-real-flame-grilled-beef-10146 {
+.dk-p-test-drive-conversions-38739 {
   position: relative;
   z-index: 1;
   width: auto;
-  max-width: 320px;
+  max-width: 362px;
   height: auto;
   color: #475569;
-  font-family: 'Inter', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'DM Sans', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 14px;
   font-weight: 600;
   line-height: 1.45;
@@ -807,47 +763,48 @@ html, body {
   position: relative;
   z-index: 1;
   width: 100%;
-  max-width: 302px;
+  max-width: 410px;
   height: auto;
+  background-color: #FFFFFF;
 }
 
-.dk-div-card-surface-10113 {
+.dk-div-card-surface-38710 {
   position: absolute;
   inset: 0;
   width: 100%;
   height: 100%;
   z-index: 0;
   pointer-events: none;
-  background-color: #FFFFFF;
+  background-color: #FFE4E6;
   border-radius: 22px;
-  border: 1px solid #E2E8F0;
+  border: 1px solid #B91C1C;
 }
 
-.dk-h1-28-min-10147 {
+.dk-h1-2026-38740 {
   position: relative;
   z-index: 1;
   width: auto;
-  max-width: 320px;
+  max-width: 362px;
   height: auto;
-  color: #0F172A;
-  font-family: 'Space Grotesk', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #B91C1C;
+  font-family: 'Bricolage Grotesque', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: clamp(22px, 2.22vw, 32px);
   font-weight: 800;
-  line-height: 1.18;
+  line-height: 1.45;
   text-align: left;
   white-space: pre-wrap;
   word-break: break-word;
   margin: 0;
 }
 
-.dk-p-average-delivery-time-10148 {
+.dk-p-design-standard-year-38741 {
   position: relative;
   z-index: 1;
   width: auto;
-  max-width: 320px;
+  max-width: 362px;
   height: auto;
   color: #475569;
-  font-family: 'Inter', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'DM Sans', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 14px;
   font-weight: 600;
   line-height: 1.45;
@@ -857,68 +814,14 @@ html, body {
   margin: 0;
 }
 
-.dk-article-card-card4 {
-  position: relative;
-  z-index: 1;
-  width: 100%;
-  max-width: 302px;
-  height: auto;
-}
-
-.dk-div-card-surface-10114 {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-  pointer-events: none;
-  background-color: #FFFFFF;
-  border-radius: 22px;
-  border: 1px solid #E2E8F0;
-}
-
-.dk-h1-4-8-10149 {
-  position: relative;
-  z-index: 1;
-  width: auto;
-  max-width: 320px;
-  height: auto;
-  color: #0F172A;
-  font-family: 'Space Grotesk', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: clamp(22px, 2.22vw, 32px);
-  font-weight: 800;
-  line-height: 1.18;
-  text-align: left;
-  white-space: pre-wrap;
-  word-break: break-word;
-  margin: 0;
-}
-
-.dk-p-app-store-rating-10150 {
-  position: relative;
-  z-index: 1;
-  width: auto;
-  max-width: 320px;
-  height: auto;
-  color: #475569;
-  font-family: 'Inter', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 1.45;
-  text-align: left;
-  white-space: pre-wrap;
-  word-break: break-word;
-  margin: 0;
-}
-
-.dk-span-badge-the-menu-10151 {
+.dk-span-badge-spotlight-features-38742 {
   position: relative;
   z-index: 1;
   width: auto;
   max-width: 400px;
   height: auto;
-  color: #0F172A;
-  font-family: 'Inter', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #B91C1C;
+  font-family: 'DM Sans', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 12px;
   font-weight: 800;
   line-height: 1.45;
@@ -928,378 +831,21 @@ html, body {
   margin: 0;
 }
 
-.dk-h1-seven-ways-to-go-big-10152 {
+.dk-h1-crafting-the-high-perfor-38743 {
   position: relative;
   z-index: 1;
   width: auto;
   max-width: 780px;
   height: auto;
   color: #18181B;
-  font-family: 'Space Grotesk', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: clamp(22px, 2.64vw, 38px);
-  font-weight: 800;
-  line-height: 1.18;
-  text-align: left;
-  white-space: pre-wrap;
-  word-break: break-word;
-  margin: 0;
-}
-
-.dk-div-grid-6grid {
-  position: relative;
-  z-index: 1;
-  width: 100%;
-  max-width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
-
-.dk-article-card-card1 {
-  position: relative;
-  z-index: 1;
-  width: 100%;
-  max-width: 408px;
-  height: auto;
-}
-
-.dk-div-card-surface-01018 {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-  pointer-events: none;
-  background-color: #FFFFFF;
-  border-radius: 24px;
-  border: 1px solid #E2E8F0;
-}
-
-.dk-img-card-1-photo-10117 {
-  position: relative;
-  z-index: 1;
-  width: 100%;
-  max-width: 372px;
-  aspect-ratio: 372 / 230;
-  height: auto;
-  background-image: url("https://images.pexels.com/photos/5175579/pexels-photo-5175579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 16px;
-  border: 1px solid transparent;
-}
-
-.dk-span-badge-bestseller-10153 {
-  position: relative;
-  z-index: 1;
-  width: auto;
-  max-width: 320px;
-  height: auto;
-  color: #0F172A;
-  font-family: 'Inter', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 12px;
+  font-family: 'Bricolage Grotesque', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: clamp(22px, 2.50vw, 36px);
   font-weight: 800;
   line-height: 1.45;
   text-align: left;
   white-space: pre-wrap;
   word-break: break-word;
   margin: 0;
-}
-
-.dk-span-badge-6-49-10154 {
-  position: relative;
-  z-index: 1;
-  width: auto;
-  max-width: 320px;
-  height: auto;
-  color: #18181B;
-  font-family: 'Space Grotesk', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 13px;
-  font-weight: 700;
-  line-height: 1.45;
-  text-align: right;
-  white-space: pre-wrap;
-  word-break: break-word;
-  margin: 0;
-}
-
-.dk-h2-the-whopper-10155 {
-  position: relative;
-  z-index: 1;
-  width: auto;
-  max-width: 360px;
-  height: auto;
-  color: #18181B;
-  font-family: 'Space Grotesk', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 22px;
-  font-weight: 800;
-  line-height: 1.45;
-  text-align: left;
-  white-space: pre-wrap;
-  word-break: break-word;
-  margin: 0;
-}
-
-.dk-p-quarter-pound-flame-gril-10156 {
-  position: relative;
-  z-index: 1;
-  width: auto;
-  max-width: 360px;
-  height: auto;
-  color: #52525B;
-  font-family: 'Inter', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.45;
-  text-align: left;
-  white-space: pre-wrap;
-  word-break: break-word;
-  margin: 0;
-}
-
-.dk-button-add-to-cart-10126 {
-  position: relative;
-  z-index: 1;
-  width: fit-content;
-  min-width: 160px;
-  max-width: 100%;
-  min-height: 46px;
-  background-color: #EAB308;
-  border-radius: 12px;
-  border: 1.5px solid #E2E8F0;
-}
-
-.dk-article-card-card2 {
-  position: relative;
-  z-index: 1;
-  width: 100%;
-  max-width: 408px;
-  height: auto;
-}
-
-.dk-div-card-surface-01019 {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-  pointer-events: none;
-  background-color: #FFFFFF;
-  border-radius: 24px;
-  border: 1px solid #E2E8F0;
-}
-
-.dk-img-card-2-photo-10118 {
-  position: relative;
-  z-index: 1;
-  width: 100%;
-  max-width: 372px;
-  aspect-ratio: 372 / 230;
-  height: auto;
-  background-image: url("https://images.pexels.com/photos/8463450/pexels-photo-8463450.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 16px;
-  border: 1px solid transparent;
-}
-
-.dk-span-badge-crispy-10157 {
-  position: relative;
-  z-index: 1;
-  width: auto;
-  max-width: 320px;
-  height: auto;
-  color: #0F172A;
-  font-family: 'Inter', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 12px;
-  font-weight: 800;
-  line-height: 1.45;
-  text-align: left;
-  white-space: pre-wrap;
-  word-break: break-word;
-  margin: 0;
-}
-
-.dk-span-badge-3-79-10158 {
-  position: relative;
-  z-index: 1;
-  width: auto;
-  max-width: 320px;
-  height: auto;
-  color: #18181B;
-  font-family: 'Space Grotesk', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 13px;
-  font-weight: 700;
-  line-height: 1.45;
-  text-align: right;
-  white-space: pre-wrap;
-  word-break: break-word;
-  margin: 0;
-}
-
-.dk-h2-chicken-fries-10159 {
-  position: relative;
-  z-index: 1;
-  width: auto;
-  max-width: 360px;
-  height: auto;
-  color: #18181B;
-  font-family: 'Space Grotesk', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 22px;
-  font-weight: 800;
-  line-height: 1.45;
-  text-align: left;
-  white-space: pre-wrap;
-  word-break: break-word;
-  margin: 0;
-}
-
-.dk-p-white-meat-chicken-shape-10160 {
-  position: relative;
-  z-index: 1;
-  width: auto;
-  max-width: 360px;
-  height: auto;
-  color: #52525B;
-  font-family: 'Inter', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.45;
-  text-align: left;
-  white-space: pre-wrap;
-  word-break: break-word;
-  margin: 0;
-}
-
-.dk-button-add-to-cart-10127 {
-  position: relative;
-  z-index: 1;
-  width: fit-content;
-  min-width: 160px;
-  max-width: 100%;
-  min-height: 46px;
-  background-color: #EAB308;
-  border-radius: 12px;
-  border: 1.5px solid #E2E8F0;
-}
-
-.dk-article-card-card3 {
-  position: relative;
-  z-index: 1;
-  width: 100%;
-  max-width: 408px;
-  height: auto;
-}
-
-.dk-div-card-surface-10110 {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-  pointer-events: none;
-  background-color: #FFFFFF;
-  border-radius: 24px;
-  border: 1px solid #E2E8F0;
-}
-
-.dk-img-card-3-photo-10119 {
-  position: relative;
-  z-index: 1;
-  width: 100%;
-  max-width: 372px;
-  aspect-ratio: 372 / 230;
-  height: auto;
-  background-image: url("https://images.pexels.com/photos/5553391/pexels-photo-5553391.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 16px;
-  border: 1px solid transparent;
-}
-
-.dk-span-badge-shareable-10161 {
-  position: relative;
-  z-index: 1;
-  width: auto;
-  max-width: 320px;
-  height: auto;
-  color: #0F172A;
-  font-family: 'Inter', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 12px;
-  font-weight: 800;
-  line-height: 1.45;
-  text-align: left;
-  white-space: pre-wrap;
-  word-break: break-word;
-  margin: 0;
-}
-
-.dk-span-badge-2-99-10162 {
-  position: relative;
-  z-index: 1;
-  width: auto;
-  max-width: 320px;
-  height: auto;
-  color: #18181B;
-  font-family: 'Space Grotesk', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 13px;
-  font-weight: 700;
-  line-height: 1.45;
-  text-align: right;
-  white-space: pre-wrap;
-  word-break: break-word;
-  margin: 0;
-}
-
-.dk-h2-onion-rings-10163 {
-  position: relative;
-  z-index: 1;
-  width: auto;
-  max-width: 360px;
-  height: auto;
-  color: #18181B;
-  font-family: 'Space Grotesk', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 22px;
-  font-weight: 800;
-  line-height: 1.45;
-  text-align: left;
-  white-space: pre-wrap;
-  word-break: break-word;
-  margin: 0;
-}
-
-.dk-p-thick-cut-sweet-onions-i-10164 {
-  position: relative;
-  z-index: 1;
-  width: auto;
-  max-width: 360px;
-  height: auto;
-  color: #52525B;
-  font-family: 'Inter', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.45;
-  text-align: left;
-  white-space: pre-wrap;
-  word-break: break-word;
-  margin: 0;
-}
-
-.dk-button-add-to-cart-10128 {
-  position: relative;
-  z-index: 1;
-  width: fit-content;
-  min-width: 160px;
-  max-width: 100%;
-  min-height: 46px;
-  background-color: #EAB308;
-  border-radius: 12px;
-  border: 1.5px solid #E2E8F0;
 }
 
 
@@ -1318,15 +864,15 @@ html, body {
   background-color: #FFFFFF;
 }
 
-.dk-div-section-bg-01012 {
+.dk-div-section-bg-93871 {
   position: absolute;
   inset: 0;
   width: 100%;
   height: 100%;
   z-index: 0;
   pointer-events: none;
-  background-color: #FFFFFF;
-  border-radius: 32px;
+  background-color: #FAF8F5;
+  border-radius: 28px;
   border: 1px solid #E2E8F0;
 }
 
@@ -1334,64 +880,51 @@ html, body {
   position: relative;
   z-index: 1;
   width: 100%;
-  max-width: 1204px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-inline: clamp(16px, 4vw, 40px);
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   gap: 24px;
   justify-content: flex-start;
   align-items: flex-start;
   padding: 24px clamp(16px, 4vw, 24px) 24px clamp(16px, 4vw, 24px);
+  background-color: #FFFFFF;
 }
 
 .dk-div-row-itrow {
   position: relative;
   z-index: 1;
   width: 100%;
-  max-width: 1204px;
-  height: auto;
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   gap: 32px;
   justify-content: flex-start;
   align-items: flex-start;
+  background-color: #FFFFFF;
 }
 
 .dk-div-col-lleft {
   position: relative;
   z-index: 1;
   width: 100%;
-  max-width: 560px;
+  max-width: 620px;
   height: auto;
+  background-color: #FFFFFF;
 }
 
-.dk-img-feature-showcase-pex-10120 {
+.dk-img-img-spotlight-prima-38712 {
   position: relative;
   z-index: 1;
   width: 100%;
-  max-width: 560px;
-  aspect-ratio: 560 / 428;
+  max-width: 620px;
+  aspect-ratio: 620 / 292;
   height: auto;
-  background-image: url("https://images.pexels.com/photos/7621132/pexels-photo-7621132.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-image: url("https://images.pexels.com/photos/16545782/pexels-photo-16545782.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  border-radius: 22px;
+  border-radius: 20px;
   border: 1px solid transparent;
-}
-
-.dk-button-pexels-hd-feature-10129 {
-  position: relative;
-  z-index: 1;
-  width: fit-content;
-  min-width: 160px;
-  max-width: 100%;
-  min-height: 42px;
-  background-color: #FFFDF0;
-  border-radius: 999px;
-  border: 1.5px solid #E2E8F0;
 }
 
 .dk-div-col-right {
@@ -1400,16 +933,17 @@ html, body {
   width: 100%;
   max-width: 600px;
   height: auto;
+  background-color: #FFFFFF;
 }
 
-.dk-span-badge-why-order-direct-10165 {
+.dk-span-badge-signature-series-38744 {
   position: relative;
   z-index: 1;
   width: auto;
-  max-width: 600px;
+  max-width: 320px;
   height: auto;
-  color: #0F172A;
-  font-family: 'Inter', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #B91C1C;
+  font-family: 'DM Sans', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 12px;
   font-weight: 800;
   line-height: 1.45;
@@ -1419,33 +953,33 @@ html, body {
   margin: 0;
 }
 
-.dk-h1-flame-grilled-not-rehea-10166 {
+.dk-p-120-day-61348 {
   position: relative;
   z-index: 1;
   width: auto;
-  max-width: 600px;
+  max-width: 320px;
+  height: auto;
+  color: #1A1A1A;
+  font-family: 'Bricolage Grotesque', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.45;
+  text-align: right;
+  white-space: pre-wrap;
+  word-break: break-word;
+  margin: 0;
+}
+
+.dk-h2-signature-series-38745 {
+  position: relative;
+  z-index: 1;
+  width: auto;
+  max-width: 520px;
   height: auto;
   color: #18181B;
-  font-family: 'Space Grotesk', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: clamp(22px, 2.50vw, 36px);
+  font-family: 'Bricolage Grotesque', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: clamp(22px, 1.94vw, 28px);
   font-weight: 800;
-  line-height: 1.18;
-  text-align: left;
-  white-space: pre-wrap;
-  word-break: break-word;
-  margin: 0;
-}
-
-.dk-p-real-open-flame-broile-10167 {
-  position: relative;
-  z-index: 1;
-  width: auto;
-  max-width: 600px;
-  height: auto;
-  color: #52525B;
-  font-family: 'Inter', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 16px;
-  font-weight: 600;
   line-height: 1.45;
   text-align: left;
   white-space: pre-wrap;
@@ -1453,16 +987,16 @@ html, body {
   margin: 0;
 }
 
-.dk-p-hot-bag-delivery-guara-10168 {
+.dk-p-crafted-with-precision-m-38746 {
   position: relative;
   z-index: 1;
   width: auto;
-  max-width: 600px;
+  max-width: 520px;
   height: auto;
   color: #52525B;
-  font-family: 'Inter', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 16px;
-  font-weight: 600;
+  font-family: 'DM Sans', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
   line-height: 1.45;
   text-align: left;
   white-space: pre-wrap;
@@ -1470,39 +1004,22 @@ html, body {
   margin: 0;
 }
 
-.dk-p-free-whopper-every-5-o-10169 {
-  position: relative;
-  z-index: 1;
-  width: auto;
-  max-width: 600px;
-  height: auto;
-  color: #52525B;
-  font-family: 'Inter', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 1.45;
-  text-align: left;
-  white-space: pre-wrap;
-  word-break: break-word;
-  margin: 0;
-}
-
-.dk-button-start-your-order-10130 {
+.dk-button-view-range-38721 {
   position: relative;
   z-index: 1;
   width: fit-content;
   min-width: 160px;
   max-width: 100%;
-  min-height: 52px;
-  background-color: #EAB308;
+  min-height: 48px;
+  background-color: #B91C1C;
   border-radius: 12px;
-  border: 1.5px solid #E2E8F0;
+  border: 1.5px solid #1E293B;
 }
 
 
-/* ==================== SECTION: section#cta — Call to Action ==================== */
+/* ==================== SECTION: section#showcase — Showcase ==================== */
 
-.dk-section-cta-call-to-action-msec3 {
+.dk-section-showcase-showcase-msec3 {
   position: relative;
   z-index: 1;
   width: 100%;
@@ -1515,105 +1032,43 @@ html, body {
   background-color: #FFFFFF;
 }
 
-.dk-div-section-bg-01013 {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-  pointer-events: none;
-  background-color: #FEF9C3;
-  border-radius: 28px;
-  border: 1px solid #EAB308;
-}
-
 .dk-div-container-ainer {
   position: relative;
   z-index: 1;
   width: 100%;
-  max-width: 1168px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-inline: clamp(16px, 4vw, 40px);
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   gap: 24px;
   justify-content: flex-start;
   align-items: flex-start;
   padding: 24px clamp(16px, 4vw, 24px) 24px clamp(16px, 4vw, 24px);
+  background-color: #FFFFFF;
 }
 
 .dk-div-row-r1row {
   position: relative;
   z-index: 1;
   width: 100%;
-  max-width: 1168px;
-  height: auto;
-}
-
-.dk-h1-your-whopper-is-one-tap-10170 {
-  position: relative;
-  z-index: 1;
-  width: auto;
-  max-width: 720px;
-  height: auto;
-  color: #18181B;
-  font-family: 'Space Grotesk', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: clamp(22px, 2.36vw, 34px);
-  font-weight: 800;
-  line-height: 1.18;
-  text-align: left;
-  white-space: pre-wrap;
-  word-break: break-word;
-  margin: 0;
-}
-
-.dk-button-order-now-free-deliver-10131 {
-  position: relative;
-  z-index: 1;
-  width: fit-content;
-  min-width: 160px;
-  max-width: 100%;
-  min-height: 56px;
-  background-color: #EAB308;
-  border-radius: 14px;
-  border: 1.5px solid #E2E8F0;
-}
-
-.dk-p-download-the-app-earn-c-10171 {
-  position: relative;
-  z-index: 1;
-  width: auto;
-  max-width: 720px;
-  height: auto;
-  color: #52525B;
-  font-family: 'Inter', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.45;
-  text-align: left;
-  white-space: pre-wrap;
-  word-break: break-word;
-  margin: 0;
-}
-
-
-/* ==================== SECTION: footer — Site Footer ==================== */
-
-.dk-footer-site-footer-ooter {
-  position: relative;
-  z-index: 1;
-  width: 100%;
   max-width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 24px;
   justify-content: flex-start;
   align-items: flex-start;
   background-color: #FFFFFF;
 }
 
-.dk-div-section-bg-01014 {
+.dk-article-card-card1 {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 626px;
+  height: auto;
+  background-color: #FFFFFF;
+}
+
+.dk-div-section-bg-93872 {
   position: absolute;
   inset: 0;
   width: 100%;
@@ -1621,75 +1076,219 @@ html, body {
   z-index: 0;
   pointer-events: none;
   background-color: #FFFFFF;
+  border-radius: 24px;
   border: 1px solid #E2E8F0;
 }
 
-.dk-div-container-ainer {
+.dk-img-img-spotlight-pair-1-38713 {
   position: relative;
   z-index: 1;
   width: 100%;
-  max-width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  justify-content: flex-start;
-  align-items: flex-start;
-  padding: 24px clamp(16px, 4vw, 24px) 24px clamp(16px, 4vw, 24px);
+  max-width: 590px;
+  aspect-ratio: 590 / 186;
+  height: auto;
+  background-image: url("https://images.pexels.com/photos/2927549/pexels-photo-2927549.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  border: 1px solid transparent;
 }
 
-.dk-div-row-errow {
+.dk-span-badge-performance-38747 {
   position: relative;
   z-index: 1;
-  width: 100%;
-  max-width: 100%;
+  width: auto;
+  max-width: 320px;
+  height: auto;
+  color: #B91C1C;
+  font-family: 'DM Sans', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 11px;
+  font-weight: 800;
+  line-height: 1.45;
+  text-align: left;
+  white-space: pre-wrap;
+  word-break: break-word;
+  margin: 0;
 }
 
-.dk-p-overview-features-pricin-10172 {
+.dk-p-99-9-sla-38748 {
   position: relative;
   z-index: 1;
-  width: 100%;
-  max-width: 100%;
-  color: #0F172A;
-  font-family: 'Inter', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 15px;
+  width: auto;
+  max-width: 320px;
+  height: auto;
+  color: #18181B;
+  font-family: 'Bricolage Grotesque', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 14px;
   font-weight: 700;
   line-height: 1.45;
-  text-align: center;
+  text-align: right;
   white-space: pre-wrap;
   word-break: break-word;
   margin: 0;
 }
 
-.dk-h3-burger-king-10173 {
+.dk-h2-built-to-scale-38749 {
   position: relative;
   z-index: 1;
-  width: 100%;
-  max-width: 100%;
-  color: #0F172A;
-  font-family: 'Space Grotesk', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: clamp(39px, 4.72vw, 68px);
+  width: auto;
+  max-width: 578px;
+  height: auto;
+  color: #18181B;
+  font-family: 'Bricolage Grotesque', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 22px;
   font-weight: 800;
-  line-height: 1.18;
-  text-align: center;
+  line-height: 1.45;
+  text-align: left;
   white-space: pre-wrap;
   word-break: break-word;
   margin: 0;
 }
 
-.dk-p-2026-burger-king-craf-10174 {
+.dk-p-high-speed-workflows-eng-38750 {
   position: relative;
   z-index: 1;
-  width: 100%;
-  max-width: 100%;
-  color: #475569;
-  font-family: 'Inter', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 13px;
+  width: auto;
+  max-width: 578px;
+  height: auto;
+  color: #52525B;
+  font-family: 'DM Sans', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 14px;
   font-weight: 500;
   line-height: 1.45;
-  text-align: center;
+  text-align: left;
   white-space: pre-wrap;
   word-break: break-word;
   margin: 0;
+}
+
+.dk-button-explore-now-38722 {
+  position: relative;
+  z-index: 1;
+  width: fit-content;
+  min-width: 160px;
+  max-width: 100%;
+  min-height: 42px;
+  background-color: #B91C1C;
+  border-radius: 12px;
+  border: 1.5px solid #1E293B;
+}
+
+.dk-article-card-card2 {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 626px;
+  height: auto;
+  background-color: #FFFFFF;
+}
+
+.dk-div-section-bg-93873 {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+  background-color: #FFFFFF;
+  border-radius: 24px;
+  border: 1px solid #E2E8F0;
+}
+
+.dk-img-img-spotlight-pair-2-38714 {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 590px;
+  aspect-ratio: 590 / 186;
+  height: auto;
+  background-image: url("https://images.pexels.com/photos/35964/ferrari-red-auto-sports-car.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  border: 1px solid transparent;
+}
+
+.dk-span-badge-bespoke-suite-38751 {
+  position: relative;
+  z-index: 1;
+  width: auto;
+  max-width: 320px;
+  height: auto;
+  color: #B91C1C;
+  font-family: 'DM Sans', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 11px;
+  font-weight: 800;
+  line-height: 1.45;
+  text-align: left;
+  white-space: pre-wrap;
+  word-break: break-word;
+  margin: 0;
+}
+
+.dk-p-pro-ready-38752 {
+  position: relative;
+  z-index: 1;
+  width: auto;
+  max-width: 320px;
+  height: auto;
+  color: #18181B;
+  font-family: 'Bricolage Grotesque', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.45;
+  text-align: right;
+  white-space: pre-wrap;
+  word-break: break-word;
+  margin: 0;
+}
+
+.dk-h2-editorial-craft-38753 {
+  position: relative;
+  z-index: 1;
+  width: auto;
+  max-width: 578px;
+  height: auto;
+  color: #18181B;
+  font-family: 'Bricolage Grotesque', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 1.45;
+  text-align: left;
+  white-space: pre-wrap;
+  word-break: break-word;
+  margin: 0;
+}
+
+.dk-p-adaptable-visual-systems-38754 {
+  position: relative;
+  z-index: 1;
+  width: auto;
+  max-width: 578px;
+  height: auto;
+  color: #52525B;
+  font-family: 'DM Sans', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.45;
+  text-align: left;
+  white-space: pre-wrap;
+  word-break: break-word;
+  margin: 0;
+}
+
+.dk-button-learn-more-38723 {
+  position: relative;
+  z-index: 1;
+  width: fit-content;
+  min-width: 160px;
+  max-width: 100%;
+  min-height: 42px;
+  background-color: #B91C1C;
+  border-radius: 12px;
+  border: 1.5px solid #1E293B;
 }
 
 /* Responsive Breakpoints (TAB <= 1024px & MOB <= 768px) */
